@@ -20,4 +20,4 @@ Using D3.js, I made an API call to fetch the earthquake data in JSON format from
 Using Leaflet, I created a map plotting all earthquakes from the dataset based on their longitude and latitude. The data markers reflect the magnitude of the earthquake by their size and the depth of the earthquake by color. Popups provide additional information about the earthquake when its associated marker is clicked. A legend was created to provide context for the map data.
 
 ### Deployment 
-The project has been deployed and can be viewed at 
+The project has been deployed and can be viewed at https://alvin-giang.github.io/Leaflet_Mapping/
