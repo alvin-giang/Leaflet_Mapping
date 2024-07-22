@@ -4,9 +4,9 @@
 
 ### Introduction
 
-The United States Geological Survey (USGS) is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
+The United States Geological Survey (USGS) plays a crucial role in providing scientific data about natural hazards, the health of ecosystems and the environment, and the impacts of climate and land-use change. Their scientists are dedicated to developing innovative methods and tools to deliver timely, relevant, and actionable information about the Earth and its processes.
 
-To aid USGS in their mission, I have developed a new set of tools that visualize their earthquake data, allowing for better public education and interaction with government organizations. This project helps to illustrate the critical issues facing our planet and potentially secure more funding for future research.
+In support of USGS's mission, I have developed a comprehensive set of visualization tools for their earthquake data. These tools enhance public education and facilitate interaction with government organizations. By illustrating critical issues facing our planet, this project aims to raise awareness and potentially secure increased funding for future research.
 
 ### Earthquake Visualisation
 I visualized an earthquake dataset provided by the USGS. The process involved several key steps:
