@@ -57,7 +57,7 @@ d3.json(URL).then(function (data) {
         // loop through our density intervals and generate a label with a colored square for each interval
         for (let i = 0; i < depths.length; i++) {
             div.innerHTML +=
-                '<i style="background:' + markerColor(depth[i] + 1) + '"></i> ' + depths[i] + (depths[i + 1] ? '&ndash;' + depths[i + 1] + '<br>' : '+');
+                '<i style="background:' + markerColor(depths[i] + 1) + '"></i> ' + depths[i] + (depths[i + 1] ? '&ndash;' + depths[i + 1] + '<br>' : '+');
         }
 
         return div;
