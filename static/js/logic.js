@@ -49,18 +49,17 @@ d3.json(URL).then(function (data) {
 
     legend.onAdd = function() {
         let div = L.DomUtil.create("div", "info legend"),
-            depths = [-10, 10, 30, 50, 70, 90],
-            labels = [];
-
+            depths = [-10, 10, 30, 50, 70, 90];
+    
         div.innerHTML += "<h3>Depth (km)</h3>";
-
-        // loop through our density intervals and generate a label with a colored square for each interval
+    
+        // Loop through depth intervals and generate a label with a colored square for each interval
         for (let i = 0; i < depths.length; i++) {
             div.innerHTML +=
-                '<i style="background:' + markerColor(depths[i] + 1) + '; width: 18px; height: 18px; display: inline-block; margin-right: 5px;"></i> ' +
+                '<i style="background:' + markerColor(depths[i] + 1) + '"></i> ' +
                 depths[i] + (depths[i + 1] ? '&ndash;' + depths[i + 1] + '<br>' : '+');
         }
-
+    
         return div;
     };
 
